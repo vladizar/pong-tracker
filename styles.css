@@ -1,0 +1,108 @@
+/*
+#ffe69d
+#ff6b6b
+#f7fff7
+#4ecdc4
+#1a535c
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.game-screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #f7fff7;
+    gap: 1vw;
+}
+
+.draw-screen {
+    background-color: #ff6b6b;
+}
+
+.score-wrapper {
+    flex: 0 1 50%;
+    color: #f7fff7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15vh;
+    user-select: none;
+    background-color: #1a535c;
+}
+
+.losing {
+    background-color: #ff6b6b;
+}
+
+.winning {
+    background-color: #4ecdc4;
+}
+
+.serving-balls {
+    color: #ffe69d;
+}
+
+.settings-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.settings {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    opacity: 0.95;
+}
+
+.points-to-win {
+    width: 50vw;
+    padding: 12px 20px;
+    font-size: 10vh;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4ecdc4;
+    border-radius: 6px;
+    text-align: center;
+    outline: transparent;
+    background-color: #1a535c;
+    color: #f7fff7;
+    margin-bottom: 60px;
+}
+
+.points-to-win:hover,
+.points-to-win:focus {
+    border-color: #34b3ca;
+    background-color: #003942;
+    cursor: pointer;
+}
+
+.apply {
+    width: 30vw;
+    padding: 14px 22px;
+    font-size: 6vh;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ffe69d;
+    border-radius: 5px;
+    text-align: center;
+    outline: transparent;
+    background-color: #ff6b6b;
+    color: #f7fff7;
+    text-transform: uppercase;
+}
+
+.apply:hover {
+    border-color: #dfc67d;
+    background-color: #df4b4b;
+    cursor: pointer;
+}
