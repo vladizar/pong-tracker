@@ -134,8 +134,9 @@ applyButton.onclick = function () {
 
     moreOrLess = false;
 
-    scoreWrappers[1].classList.add('winning');
-    scoreWrappers[0].classList.add('losing');
+    scoreWrappers[0].className = 'score-wrapper';
+    scoreWrappers[1].className = 'score-wrapper';
+    gameScreen.classList.add('draw-screen');
 };
 
 for (let i = 0; i < scoreWrappers.length; i++) {
