@@ -133,6 +133,9 @@ applyButton.onclick = function () {
     }
 
     moreOrLess = false;
+
+    scoreWrappers[1].classList.add('winning');
+    scoreWrappers[0].classList.add('losing');
 };
 
 for (let i = 0; i < scoreWrappers.length; i++) {
