@@ -188,7 +188,7 @@ document.addEventListener(
         else if (
             Math.abs(touchPositions[0].y - touchPositions[1].y) > swipeLength
         ) {
-            settingsScreen.style.visibility = '';
+            // settingsScreen.style.visibility = '';
         }
     },
     false
